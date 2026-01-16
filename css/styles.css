@@ -1,14 +1,77 @@
+/* =========================
+   1. Reset / Base
+   ========================= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
+
+/* =========================
+   2. Global Styles
+   ========================= */
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   4. Sections
+   ========================= */
+
 section {
   padding: 60px 20px;
 }
+
+/* =========================
+   5. Header / Navigation
+   ========================= */
+
+header {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* =========================
+   6. Hero Section
+   ========================= */
+#hero {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+/* =========================
+   7. Services Section
+   ========================= */
+
+/* =========================
+   8. Contact Section
+   ========================= */
+
+/* =========================
+   9. Footer
+   ========================= */
+
+/* =========================
+   10. Components
+   ========================= */
+
+/* =========================
+   11. Utilities
+   ========================= */
+
+/* =========================
+   12. Media Queries
+   ========================= */
