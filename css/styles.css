@@ -55,6 +55,15 @@ nav {
 /* =========================
    7. Services Section
    ========================= */
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-item {
+  padding: 20;
+}
 
 /* =========================
    8. Contact Section
