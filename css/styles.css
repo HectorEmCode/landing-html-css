@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ main {
    ========================= */
 
 section {
-  padding: 60px 20px;
+  padding: 0;
 }
 
 /* =========================
@@ -81,6 +81,23 @@ nav {
    11. Utilities
    ========================= */
 
+#hero,
+#services,
+#contact {
+  padding: 60px 20px;
+}
+
 /* =========================
    12. Media Queries
    ========================= */
+@media (min-width: 768px) {
+  .services-list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .service-item {
+    flex: 1;
+  }
+}
