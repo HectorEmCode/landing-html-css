@@ -81,12 +81,11 @@ nav {
    11. Utilities
    ========================= */
 
-#hero,
-#services,
-#contact {
+.section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 60px 20px;
 }
-
 /* =========================
    12. Media Queries
    ========================= */
@@ -99,5 +98,12 @@ nav {
 @media (min-width: 768px) {
   .service-item {
     flex: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
