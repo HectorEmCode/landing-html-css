@@ -52,6 +52,13 @@ nav {
   flex-direction: column;
   gap: 16px;
 }
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* =========================
    7. Services Section
    ========================= */
@@ -105,5 +112,11 @@ nav {
   main {
     max-width: 1200px;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    max-width: 600px;
   }
 }
