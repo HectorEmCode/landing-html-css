@@ -84,10 +84,12 @@ nav {
 }
 
 .hero-content {
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
+  flex: 0.8;
 }
 
 .hero-layout {
@@ -100,14 +102,11 @@ nav {
   width: 100%;
   height: auto;
   display: block;
+  flex: 1.2;
 }
 
 #hero h1 {
   max-width: 20ch;
-}
-
-.hero-content .btn {
-  margin-top: 16px;
 }
 
 .hero-content .btn {
@@ -132,6 +131,7 @@ nav {
   padding: 20;
   background-color: white;
   border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .service-icon {
@@ -167,7 +167,7 @@ nav {
    ========================= */
 .btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 14px 28px;
   text-decoration: none;
   font-weight: bold;
   background-color: var(--color-primary);
@@ -221,5 +221,11 @@ nav {
   .hero-content,
   .hero-image {
     font: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero h1 {
+    max-width: 28ch;
   }
 }
