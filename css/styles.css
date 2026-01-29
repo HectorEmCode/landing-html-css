@@ -83,6 +83,16 @@ nav {
   padding: 20;
 }
 
+.service-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 /* =========================
    8. Contact Section
    ========================= */
