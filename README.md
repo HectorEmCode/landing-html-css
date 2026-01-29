@@ -72,3 +72,5 @@ The layout adapts seamlessly across screen sizes:
 Frontend Developer (Junior)
 
 GitHub: https://github.com/HectorEmCode
+
+Live demo: https://HectorEmCode.github.io/landing-html-css/
