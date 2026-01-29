@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 /* =========================
@@ -57,6 +56,18 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.hero-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* =========================
@@ -129,5 +140,17 @@ nav {
 @media (min-width: 768px) {
   .hero-content {
     max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-layout {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-content,
+  .hero-image {
+    font: 1;
   }
 }
